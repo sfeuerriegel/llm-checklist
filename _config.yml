@@ -26,3 +26,18 @@ defaults:
 markdown: kramdown
 kramdown:
   input: GFM
+
+# navigation links in the header
+main:
+  - title: "Home"
+    url: /
+  - title: "Checklist"
+    url: /checklist/
+  - title: "Why"
+    url: /why/
+  - title: "How to Use"
+    url: /how-to-use/
+  - title: "Extensions"
+    url: /extensions/
+  - title: "Updates"
+    url: /updates/

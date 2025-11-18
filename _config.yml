@@ -1,2 +1,28 @@
-title: My Publications
-theme: jekyll-theme-minimal
+title: "GUIDE-LLM"
+description: "Reporting Checklist for Studies with Large Language Models in the Behavioral and Social Sciences"
+url: "https://your-username.github.io"
+baseurl: "/guide-llm"        # leave empty ("") if using username.github.io root
+theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# navigation
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: false
+
+# build settings
+markdown: kramdown
+kramdown:
+  input: GFM

@@ -21,6 +21,9 @@ defaults:
       layout: single
       author_profile: false
 
+atom_feed:
+  hide: true
+
 markdown: kramdown
 kramdown:
   input: GFM

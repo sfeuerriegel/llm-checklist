@@ -1,7 +1,7 @@
 title: "GUIDE-LLM"
 description: "Reporting Checklist for Studies with Large Language Models in the Behavioral and Social Sciences"
 url: "https://sfeuerriegel.github.io"
-baseurl: "/guide-llm"
+baseurl: "/llm-checklist"
 
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:

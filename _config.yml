@@ -45,3 +45,10 @@ main:
     url: /extensions/
   - title: "Updates"
     url: /updates/
+
+minimal_mistakes_skin: "default"
+footer:
+  links: []
+
+sass:
+  style: compressed

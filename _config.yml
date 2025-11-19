@@ -26,6 +26,13 @@ markdown: kramdown
 kramdown:
   input: GFM
 
+# Navigation menu at top
+header:
+  overlay_color: false
+  overlay_filter: false
+  overlay_image: false
+  show_nav: true
+
 main:
   - title: "Home"
     url: /

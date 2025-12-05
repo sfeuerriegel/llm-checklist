@@ -53,4 +53,4 @@ Download full checklist with detailed instructions:
 - [Download DOCX](/assets/downloads/GUIDE-LLM.docx)
 - [Download LaTeX](/assets/downloads/GUIDE-LLM.tex) · 
 
-For practical illustrations: see the [how-to-use guide](/how-to-use/) which includes several checklists filled out using real examples.
+For practical illustrations: see the [how-to-use guide](how-to-use/) which includes several checklists filled out using real examples.

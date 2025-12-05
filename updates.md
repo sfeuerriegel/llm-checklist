@@ -1,5 +1,6 @@
 ---
-title: "Updates"
+title: ""
+nav_title: "Updates"
 permalink: /updates/
 layout: single
 ---

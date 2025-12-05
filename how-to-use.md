@@ -1,5 +1,6 @@
 ---
-title: "How to Use"
+title: ""
+nav_title: "How to Use"
 permalink: /how-to-use/
 layout: single
 ---

@@ -1,5 +1,6 @@
 ---
-title: "Home"
+title: ""
+nav_title: "Home"
 author_profile: false
 layout: single
 ---
@@ -13,10 +14,10 @@ Large language models (LLMs) offer new opportunities to study human behavior, ye
 ### 📘 How to use this checklist
 
 For a step-by-step guide and examples of real research workflows:   
-👉 **[How to use GUIDE-LLM](/how-to-use/)**
+👉 **[How to use GUIDE-LLM](how-to-use/)**
 
 For background on the motivation and principles behind the checklist, see  
-👉 **[Why GUIDE-LLM?](/why-guide-llm/)**
+👉 **[Why GUIDE-LLM?](why-guide-llm/)**
 
 ---
 

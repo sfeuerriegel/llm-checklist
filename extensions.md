@@ -1,5 +1,6 @@
 ---
-title: "Extensions"
+title: ""
+nav_title: "Extensions"
 permalink: /extensions/
 layout: single
 ---

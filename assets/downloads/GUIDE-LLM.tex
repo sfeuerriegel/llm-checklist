@@ -56,15 +56,12 @@
 \noindent Fill in each item with brief, specific information about how LLMs were used in your study. Where an item does not apply, write “N/A” and, if helpful, note why. If multiple LLMs were used for different purposes, complete the relevant sections separately for each model. You may refer to sections or appendices in your manuscript rather than repeating text.
 
 
-\begin{table}[ht!]
-\centering
-\arrayrulecolor{black}
-\setlength{\tabcolsep}{4pt} 
-\begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+\begin{longtable}{|p{0.7\textwidth}|p{0.3\textwidth}|}
 \hline
 \rowcolor{green!20}
-\textbf{Scope of LLM use} & \textbf{Answer} \\
+\textbf{Scope of LLM use} & \textbf{Answer} \\*   % no break after this row
 \hline
+
 \textbf{Item A.1:} LLMs were used in this project for:
 
 \textcolor{gray}{{\footnotesize
@@ -85,19 +82,15 @@ Depending on the specific use case described here, different checklist items may
 \textcolor{gray}{{\footnotesize
 \textbf{Explanation:} Indicate how much human oversight was involved. For example, was each LLM output reviewed or edited by a person, or was it used automatically? For participant-facing tasks, state whether humans checked outputs before showing them to participants or whether participants interacted with the LLM directly. Specify who provided oversight (e.g., student assistant, expert, PI).}}  &   \\
 \hline
-\end{tabular}
-\end{table}
+\end{longtable}
 
-\begin{table}[t!]
-\centering
-\arrayrulecolor{black}
-\setlength{\tabcolsep}{4pt} 
-\begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+\begin{longtable}{|p{0.7\textwidth}|p{0.3\textwidth}|}
 \hline
 \rowcolor{green!20}
 \textbf{Model/system details
-} & \textbf{Answer} \\
+} & \textbf{Answer} \\*   % no break after this row
 \hline
+
 \textbf{Item B.1:} Model name, including provider, model size, exact version/ID, date of access, and source link (if possible): 
 
 \textcolor{gray}{{\footnotesize
@@ -149,18 +142,14 @@ Description: \\
     \item[\unchecked] N/A
 \end{itemize} \\
 \hline
-\end{tabular}
-\end{table}
+\end{longtable}
 
-\begin{table}[t!]
-\centering
-\arrayrulecolor{black}
-\setlength{\tabcolsep}{4pt} 
-\begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+\begin{longtable}{|p{0.7\textwidth}|p{0.3\textwidth}|}
 \hline
 \rowcolor{green!20}
-\textbf{{Prompts}} & \textbf{Answer} \\
+\textbf{{Prompts}} & \textbf{Answer} \\*   % no break after this row
 \hline
+
 \textbf{Item C.1:} Exact prompt(s) reported: 
 
 \textcolor{gray}{{\footnotesize
@@ -173,18 +162,14 @@ Description: \\
 \textbf{Explanation:} Note any system-level instructions that guide the model’s general behavior (e.g., “You are a helpful assistant.”). These are commonly not directly visible but can be accessed through the API.
 }}  &   \\
 \hline
-\end{tabular}
-\end{table}
+\end{longtable}
 
-\begin{table}[t!]
-\centering
-\arrayrulecolor{black}
-\setlength{\tabcolsep}{4pt} 
-\begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+\begin{longtable}{|p{0.7\textwidth}|p{0.3\textwidth}|}
 \hline
 \rowcolor{green!20}
-\textbf{{Data inputs \& privacy}} & \textbf{Answer} \\
+\textbf{{Data inputs \& privacy}} & \textbf{Answer} \\*   % no break after this row
 \hline
+
 \textbf{Item D.1:} Handling of personal or sensitive data (if any) (e.g., consent for data processing): 
 
 \textcolor{gray}{{\footnotesize
@@ -193,18 +178,14 @@ For context, some providers (e.g., OpenAI) may log or inspect prompts even when 
 }}
 &   \\
 \hline
-\end{tabular}
-\end{table}
+\end{longtable}
 
-\begin{table}[t!]
-\centering
-\arrayrulecolor{black}
-\setlength{\tabcolsep}{4pt} 
-\begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+\begin{longtable}{|p{0.7\textwidth}|p{0.3\textwidth}|}
 \hline
 \rowcolor{green!20}
-\textbf{{Validation \& interpretation}} & \textbf{Answer} \\
+\textbf{{Validation \& interpretation}} & \textbf{Answer} \\*   % no break after this row
 \hline
+
 \textbf{Item E.1:} Human validation of LLM outputs:
 
 \textcolor{gray}{{\footnotesize
@@ -228,18 +209,14 @@ Description:\\
 }}
 & \\
 \hline
-\end{tabular}
-\end{table}
+\end{longtable}
 
-\begin{table}[t!]
-\centering
-\arrayrulecolor{black}
-\setlength{\tabcolsep}{4pt} 
-\begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+\begin{longtable}{|p{0.7\textwidth}|p{0.3\textwidth}|}
 \hline
 \rowcolor{green!20}
-\textbf{{Reproducibility}} & \textbf{Answer} \\
+\textbf{{Reproducibility}} & \textbf{Answer} \\*   % no break after this row
 \hline
+
 \textbf{Item F.1:} Code/notebooks/scripts for LLM calls shared:
 
 \textcolor{gray}{{\footnotesize
@@ -254,18 +231,14 @@ Description:\\
 
 Link/DOI: \\
 \hline
-\end{tabular}
-\end{table}
+\end{longtable}
 
-\begin{table}[t!]
-\centering
-\arrayrulecolor{black}
-\setlength{\tabcolsep}{4pt} 
-\begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+\begin{longtable}{|p{0.7\textwidth}|p{0.3\textwidth}|}
 \hline
 \rowcolor{green!20}
-\textbf{{Competing interests}} & \textbf{Answer} \\
+\textbf{{Competing interests}} & \textbf{Answer} \\*   % no break after this row
 \hline
+
 \textbf{Item G.1:} Funding, support, or other relevant relationships (including in-kind access to compute or models, or professional affiliations):
 
 \textcolor{gray}{{\footnotesize
@@ -279,17 +252,12 @@ Link/DOI: \\
 
 Link/DOI: \\
 \hline
-\end{tabular}
-\end{table}
+\end{longtable}
 
-\begin{table}[t!]
-\centering
-\arrayrulecolor{black}
-\setlength{\tabcolsep}{4pt}
-\begin{tabular}{|p{0.7\textwidth}|p{0.3\textwidth}|}
+\begin{longtable}{|p{0.7\textwidth}|p{0.3\textwidth}|}
 \hline
 \rowcolor{yellow!30}
-\textbf{Optional items} & \textbf{Answer} \\
+\textbf{Optional items} & \textbf{Answer} \\*   % no break after this row
 \hline
 
 \textbf{Justification for the LLM choice along the following dimensions:}
@@ -393,9 +361,7 @@ Performance, transparency (open-/closed-weight, training data availability), rep
 }
 & \\
 \hline
-
-\end{tabular}
-\end{table}
+\end{longtable}
 
 
 \FloatBarrier

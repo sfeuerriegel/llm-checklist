@@ -32,7 +32,7 @@ Below are a couple of examples showing how the GUIDE-LLM checklist is used in re
 
 - Stürenburg, F., Forster, K., Banholzer, N., Toetzke, M., Harttgen, K., & Feuerriegel, S. (2025). *Tracking funding disparities in global health aid with machine learning*. medRxiv.  
   [https://doi.org/10.1101/2025.06.20.25329993](https://doi.org/10.1101/2025.06.20.25329993)  
-  - Example checklist filled out: **[link coming soon]**
+  - Example checklist filled out: [Download Example](/assets/downloads/GUIDE-LLM_Example_LLM_Health.pdf)
 
 
 ---

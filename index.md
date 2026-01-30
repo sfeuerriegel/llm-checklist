@@ -23,6 +23,6 @@ For background on the motivation and principles behind the checklist, see
 
 ### 📄 Download the checklist
 
-- **[Download DOCX](/assets/downloads/GUIDE-LLM-checklist.docx)**  
+- **[Download DOCX](/assets/downloads/GUIDE-LLM.docx)**  
 - **[Download LaTeX](/assets/downloads/GUIDE-LLM.tex)**
 

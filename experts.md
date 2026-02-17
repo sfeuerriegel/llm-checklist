@@ -86,7 +86,7 @@ The panel includes scholars at different career stages and methodological tradit
 
 ---
 
-## 📚 Example from published research
+## Core members
 
 The process was coordinated and overseen by a core team that prepared the initial draft of the checklist, incorporated feedback across both Delphi rounds, and guided the final consolidation of items. Core members included Christopher Barrie, M.J. Crockett, Stefan Feuerriegel, Laura K. Globig, Killian L. McLoughlin, Dan-Mircea Mirea, Manoel Horta Ribeiro, Steve Rathje, Arthur Spirling, and Diyi Yang. Their role was to synthesize the panel’s quantitative ratings and qualitative feedback, ensure methodological rigor throughout the preregistered process, and draft the manuscript.
 

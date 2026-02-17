@@ -7,6 +7,8 @@ main:
     url: /why/
   - title: "How to Use"
     url: /how-to-use/
+  - title: "Experts"
+    url: /experts/
   - title: "Extensions"
     url: /extensions/
   - title: "Updates"

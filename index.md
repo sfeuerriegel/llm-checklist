@@ -25,9 +25,3 @@ For background on the motivation and principles behind the checklist, see
 
 - **[Download DOCX](/assets/downloads/GUIDE-LLM.docx)**  
 - **[Download LaTeX](/assets/downloads/GUIDE-LLM.tex)**
-
----
-
-### About the expert panel
-
-👉 [About the expert panel](experts/)

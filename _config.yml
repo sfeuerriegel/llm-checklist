@@ -44,6 +44,8 @@ main:
     url: /why/
   - title: "How to Use"
     url: /how-to-use/
+  - title: "Experts"
+    url: /experts/ 
   - title: "Updates"
     url: /updates/
   - title: "Extensions"

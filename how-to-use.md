@@ -34,6 +34,9 @@ Below are a couple of examples showing how the GUIDE-LLM checklist is used in re
   [https://doi.org/10.1101/2025.06.20.25329993](https://doi.org/10.1101/2025.06.20.25329993)  
   - Example checklist filled out: [Download Example](/assets/downloads/GUIDE-LLM_Example_LLM_Health.pdf)
 
+- Forster, K., Keil, L., Wagner, V., Müller, M. A., Sellhorn, T. & Feuerriegel, S. (2025). *Assessing corporate sustainability with large language models: Evidence from Europe*. SSRN.  
+  [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5361703](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5361703)  
+  - Example checklist filled out: [Download Example](/assets/downloads/GUIDE-LLM_Example_LLM_CSR.pdf)
 
 ---
 

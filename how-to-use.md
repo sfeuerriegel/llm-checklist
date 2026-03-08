@@ -38,6 +38,14 @@ Below are a couple of examples showing how the GUIDE-LLM checklist is used in re
   [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5361703](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5361703)  
   - Example checklist filled out: [Download Example](/assets/downloads/GUIDE-LLM_Example_LLM_CSR.pdf)
   
+- Chai, Y., Liu, Y., Ebrahimi, M., Li, W., Padmanabhan, B. (2025). *Adversarially robust detection of harmful online content: A computational design science approach. arXiv:2512.17367.  
+
+  [https://arxiv.org/abs/2512.17367](https://arxiv.org/abs/2512.17367)  
+  - Example checklist filled out: [Download Example](/assets/downloads/GUIDE-LLM_Example_harmful_content_Chai.pdf)
+
+
+
+  
 - Fernandes, G., Santos, J., Vaz-de-Melo, P. (2026). *Widespread gender and pronoun bias in moral judgments across LLMs*. In: Proceedings of the Fifteenth Language Resources and Evaluation Conference. 
   [Preprint coming soon](https://)  
   - Example checklist filled out: [Download Example](/assets/downloads/GUIDE-LLM_Example_LREC_Vaz-de-Melo.pdf)

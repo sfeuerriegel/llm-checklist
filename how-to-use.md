@@ -37,6 +37,10 @@ Below are a couple of examples showing how the GUIDE-LLM checklist is used in re
 - Forster, K., Keil, L., Wagner, V., Müller, M. A., Sellhorn, T. & Feuerriegel, S. (2025). *Assessing corporate sustainability with large language models: Evidence from Europe*. SSRN.  
   [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5361703](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5361703)  
   - Example checklist filled out: [Download Example](/assets/downloads/GUIDE-LLM_Example_LLM_CSR.pdf)
+  
+- Fernandes, G., Santos, J., Vaz-de-Melo, P. (2026). *Widespread gender and pronoun bias in moral judgments across LLMs*. In: Proceedings of the Fifteenth Language Resources and Evaluation Conference. 
+  [Preprint coming soon](https://)  
+  - Example checklist filled out: [Download Example](/assets/downloads/GUIDE-LLM_Example_LREC_Vaz-de-Melo.pdf)
 
 ---
 

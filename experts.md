@@ -67,7 +67,7 @@ The panel includes scholars at different career stages and methodological tradit
 - Barbara Plank, LMU Munich
 - Francesco Pierri, Politecnico di Milano
 - Iyad Rahwan, Max Planck Institute for Human Development, Center for Humans & Machines, Berlin, Germany
-- Talal Rahwan, New York University in Abu Dhabi
+- Talal Rahwan, New York University Abu Dhabi
 - Pooja S. B. Rao, IIIT Bangalore
 - Claire E. Robertson, Colby College
 - David M. Rothschild, Microsoft Research
@@ -84,11 +84,11 @@ The panel includes scholars at different career stages and methodological tradit
 - Michelle Vaccaro, MIT, Institute for Data, Systems, and Society (IDSS)
 - Effy Vayena, Health Ethics and Policy Lab, ETH Zurich
 - Pedro O.S. Vaz-de-Melo, Universidade Federal de Minas Gerais, Brazil
+- Jennifer Wortman Vaughan, Microsoft Research
 - Briana Vecchione, Data & Society Research Institute
 - Angelina Wang, Cornell Tech
 - Robert West, EPFL
 - Robb Willer, Stanford University
-- Jennifer Wortman Vaughan, Microsoft Research
 - Dirk U. Wulff, Center for Adaptive Rationality, Max Planck Institute for Human Development & Faculty of Psychology, University of Basel
 - Renwen Zhang, Nanyang Technological University, Singapore
 - Simone Zhang, New York University

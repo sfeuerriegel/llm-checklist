@@ -59,6 +59,6 @@ The checklist is meant to be:
 
 ## How the GUIDE-LLM checklist was designed
 
-The GUIDE-LLM checklist was developed through a structured, multi-stage process involving more than **65 experts** from the behavioral and social sciences (e.g., psychology, sociology, economics, management) but also computer science and ethics. In a two-step Delphi process, the experts first generated and refined potential reporting items and then evaluated them for inclusion based on their relevance and broad usefulness across research contexts. All items that appear in the final checklist achieved **strong consensus**, with over two-thirds of experts supporting inclusion during the rating phase. 
+The GUIDE-LLM checklist was developed through a structured, multi-stage process involving more than **80 experts** from the behavioral and social sciences (e.g., psychology, sociology, economics, management) but also computer science and ethics. In a two-step Delphi process, the experts first generated and refined potential reporting items and then evaluated them for inclusion based on their relevance and broad usefulness across research contexts. All items that appear in the final checklist achieved **strong consensus**, with over two-thirds of experts supporting inclusion during the rating phase. 
 
 **Methodological background:** Detailed information about the methodology, consensus criteria, and development process is available [here](/llm-checklist.pdf).

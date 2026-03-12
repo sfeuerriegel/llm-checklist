@@ -82,9 +82,9 @@ The panel includes scholars at different career stages and methodological tradit
 - Malte Toetzke, Technical University of Munich & Max Planck Institute for Innovation and Competition
 - Jay J Van Bavel, New York University; Norwegian School of Economics
 - Michelle Vaccaro, MIT, Institute for Data, Systems, and Society (IDSS)
+- Jennifer Wortman Vaughan, Microsoft Research
 - Effy Vayena, Health Ethics and Policy Lab, ETH Zurich
 - Pedro O.S. Vaz-de-Melo, Universidade Federal de Minas Gerais, Brazil
-- Jennifer Wortman Vaughan, Microsoft Research
 - Briana Vecchione, Data & Society Research Institute
 - Angelina Wang, Cornell Tech
 - Robert West, EPFL

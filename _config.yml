@@ -11,7 +11,7 @@ plugins:
 collections:
   pages:
     output: true
-    permalink: /:path/
+    permalink: /
 
 defaults:
   - scope:

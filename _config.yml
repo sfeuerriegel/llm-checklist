@@ -1,7 +1,7 @@
 title: "GUIDE-LLM"
 description: "Reporting Checklist for Studies with Large Language Models in the Behavioral and Social Sciences"
 url: "https://llm-checklist.com"
-baseurl: "/"
+baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
@@ -11,7 +11,7 @@ plugins:
 collections:
   pages:
     output: true
-    permalink: /
+    permalink: /:path/
 
 defaults:
   - scope:

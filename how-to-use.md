@@ -43,11 +43,9 @@ Below are a couple of examples showing how the GUIDE-LLM checklist is used in re
   [https://arxiv.org/abs/2512.17367](https://arxiv.org/abs/2512.17367)  
   - Example checklist filled out: [Download Example](/assets/downloads/GUIDE-LLM_Example_harmful_content_Chai.pdf)
 
-
-
   
 - Fernandes, G., Santos, J., Vaz-de-Melo, P. (2026). *Widespread gender and pronoun bias in moral judgments across LLMs*. In: Proceedings of the Fifteenth Language Resources and Evaluation Conference. 
-  [Preprint coming soon](https://)  
+  [https://arxiv.org/abs/2603.13636](https://arxiv.org/abs/2603.13636)  
   - Example checklist filled out: [Download Example](/assets/downloads/GUIDE-LLM_Example_LREC_Vaz-de-Melo.pdf)
 
 ---

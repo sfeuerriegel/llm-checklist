@@ -32,7 +32,7 @@
 \pagestyle{fancy}
 \fancyhf{} % clear all fields
 \fancyhead[L]{\url{http://www.llm-checklist.com}} % Left header
-\fancyhead[R]{Version: 1.0} % Right header
+\fancyhead[R]{Version: 1.1} % Right header
 
 % Remove the line under the header
 \renewcommand{\headrulewidth}{0pt}
@@ -40,7 +40,7 @@
 % Title formatting - squishing the title to the top
 \renewcommand{\maketitle}{
         \vspace{-2cm} \noindent 
-        \textbf{\Large{GUIDE-LLM: A checklist for reporting studies with large language models in behavioral and social science}} \\
+        \textbf{\Large{A checklist for reporting studies with large language models in behavioral and social science}} \\
         %\vspace{0.5cm}
 }
 
@@ -65,11 +65,11 @@
 \textbf{Item A.1:} LLMs were used in this project for:
 
 \textcolor{gray}{{\footnotesize
-\textbf{Explanation:} Briefly describe how and for what purposes LLMs were used in the study. This may include one or several stages of the research workflow, depending on the project’s design and aims. The following examples illustrate common categories:
+\textbf{Explanation:} Briefly describe how and for what purposes LLMs were used in the study. This may include one or multiple stages of the research workflow, depending on the project’s design and aims. The following examples illustrate common use cases:
 \begin{itemize}[leftmargin=*]\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
     \item \textbf{Research design} (e.g., hypothesis generation, literature search, or creating surveys/stimuli).
-    \item \textbf{Data processing} (e.g., transcription, translation, or data extraction).
-    \item Analysis (e.g., data labeling, summarization, pattern detection, or code writing).
+    \item \textbf{Data processing} (e.g., transcription, translation, data extraction, or data cleaning).
+    \item \textbf{Analysis} (e.g., data labeling, summarization, pattern detection, statistical analysis, or code generation)..
     \item \textbf{LLM as research object} (e.g., studying LLM behavior, benchmarking LLMs, or bias assessment of LLMs).
     \item \textbf{Participant-facing settings} (e.g., LLM used as an intervention, studying human interactions with LLM chatbots).
     \item \textbf{Communication} (e.g., paper writing, editing, or reviewing).
@@ -80,7 +80,7 @@ Depending on the specific use case described here, different checklist items may
 \textbf{Item A.2:} Degree of automation (human-in-the-loop vs. fully automated): 
 
 \textcolor{gray}{{\footnotesize
-\textbf{Explanation:} Indicate how much human oversight was involved. For example, was each LLM output reviewed or edited by a person, or was it used automatically? For participant-facing tasks, state whether humans checked outputs before showing them to participants or whether participants interacted with the LLM directly. Specify who provided oversight (e.g., student assistant, expert, PI).}}  &   \\
+\textbf{Explanation:} Indicate how much human oversight was involved. Specify whether each output was reviewed, edited, or approved by a person, or whether outputs were used automatically without supervision. For participant-facing tasks, state whether humans checked outputs before showing them to participants or whether participants interacted with the LLM directly. Specify who provided oversight (e.g., student assistant, expert, PI).}}  &   \\
 \hline
 \end{longtable}
 
@@ -94,7 +94,7 @@ Depending on the specific use case described here, different checklist items may
 \textbf{Item B.1:} Model name, including provider, model size, exact version/ID, date of access, and source link (if possible): 
 
 \textcolor{gray}{{\footnotesize
-\textbf{Explanation:} Report the exact model names (including provider, version, and date accessed). Avoid generic labels like “ChatGPT” or “GPT-4”; instead, use detailed model names such as “GPT-4o-mini-2024-12-17 (OpenAI)” or “Llama-3.1-8B (Meta; accessed via HuggingFace in May 2025)”. For locally deployable models, please also enter a source link (e.g., the URL to the HuggingFace page). If you tested multiple models, it is encouraged to name them and briefly explain which one you used in the final study and why.}}
+\textbf{Explanation:} Report the exact model names (including provider, version, and date accessed). Avoid generic labels like “ChatGPT” or “GPT-4”; instead, use detailed model names such as “GPT-4o-mini-2024-12-17 (OpenAI)” or “Llama-3.1-8B (Meta; accessed via HuggingFace in May 2025)”. For locally deployable models, please also enter a source link (e.g., the URL to the HuggingFace page). If multiple models were tested, it is encouraged to name them and briefly explain which one was used in the final study and why. When multiple models served different purposes, specify their respective roles, consistent with your response to Item A.1.}}
 &   \\
 \hline
 \textbf{Item B.2:} Model access (e.g., API, web interface, local) and context mode (e.g., chat mode or separate calls): 
@@ -105,22 +105,32 @@ Depending on the specific use case described here, different checklist items may
 \textbf{Item B.3:} Relevant LLM configurations reported (as applicable), such as temperature, max tokens, seed, and number of runs:
 
 \textcolor{gray}{{\footnotesize
-\textbf{Explanation:}  List any configuration settings that affect outputs, such as:
+\textbf{Explanation:} List any configuration settings that may affect outputs, such as:
 \begin{itemize}[leftmargin=*]\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
-    \item \textbf{temperature} (which controls model randomness)
-    \item \textbf{top\_k, top\_p, max tokens} (which controls sampling so that, e.g., only the k most probable tokens are considered, or to enforce a length limit)
-    \item Certain \textbf{penalties} that discourage repetition (e.g., a frequency penalty to reduce the likelihood of tokens proportional to how often they have already appeared; a presence penalty reduces the likelihood of any token that has appeared at least once) 
-    \item \textbf{Stop sequences} (which halt generation when such a top sequence is produced, such as, e.g., [``$\backslash n \backslash n$'', ``END'']).
-    \item \textbf{Number of completions or runs} (which is often used to capture variance in outputs across repeated generations)
+    \item \textbf{temperature} which controls randomness of the model’s output)
+    \item \textbf{Sampling parameters} such as \emph{top\_k}, \emph{top\_p}, \emph{max tokens} (which limit the candidate token set or enforce length constraints)are considered, or to enforce a length limit)
+    \item \textbf{Penalties} that discourage repetition (e.g., a frequency penalty to reduce the likelihood of tokens proportional to how often they have already appeared; a presence penalty reduces the likelihood of any token that has appeared at least once) 
+    \item \textbf{Stop sequences} (which halt generation when such a top sequence is produced, e.g., [``$\backslash n \backslash n$'', ``END'']).
+    \item \textbf{Number of completions or runs} (which is often used to capture variability in outputs across repeated generations)
     \item \textbf{Quantization level} (e.g., FP16, INT8, INT4) to change numerical precision beyond the default
-    \item \textbf{Reasoning}-related settings, such as whether a specific structured reasoning is enabled, the specified reasoning effort level (e.g., low/medium/high or numerical settings that influence the depth of the reasoning), and any compute or inference budget constraints tied to the chosen reasoning mode
+    \item \textbf{Reasoning-related settings}, such as whether a specific structured reasoning was enabled, the specified reasoning effort level (e.g., low/medium/high or numerical settings that influence the depth of the reasoning), and any compute or inference budget constraints tied to the chosen reasoning mode
 \end{itemize}
 } } &   \\
 \hline
 \textbf{Item B.4:} Customization: 
 
 \textcolor{gray}{{\footnotesize
-\textbf{Explanation:} Check and describe any modifications or extended capabilities your setup used. Examples: fine-tuning (e.g., via LoRA; Low-Rank Adaptation) is used to adapt a pretrained model to domain materials; retrieval-augmentation generation (RAG) is a technique in which the model retrieves relevant information from external sources (e.g., databases). Here, web search refers to whether the LLM could retrieve other information from the web; automated prompt optimization refers to certain wrappers (e.g., DSPy) that treat prompts as a trainable parameter; agentic workflows refer to multi-step reasoning or delegated actions that go beyond simple tool/function calling. (e.g., via LangChain, AutoGPT, CrewAI). For post-training, describe any custom refinement processes applied to the LLMs, including alignment methods or model-level optimization techniques used to adjust behavior after pretraining (e.g., reinforcement learning from human feedback (RLHF), direct preference optimization (DPO)). Here, the goal is to specify only the customizations or modifications added on top of the existing model so others can reproduce your exact setup, rather than describing default model-provider settings. Here, the goal is to specify any added customizations and any provider-specific characteristics that meaningfully shape system behavior in order to enable others to understand and accurately reproduce your setup. }}  &   \begin{itemize}[leftmargin=*]\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+\textbf{Explanation:} Check and describe any modifications or extended capabilities incorporated into your LLM setup beyond standard inference. This includes, but is not limited to:
+\begin{itemize}[leftmargin=*]\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+\item \textbf{Fine-tuning} (e.g., via LoRA; Low-Rank Adaptation) used to adapt a pretrained model to domain-specific data.
+\item \textbf{Retrieval-augmentation generation (RAG)}, where the model retrieves relevant information from external sources (e.g., databases or document collections) during inference. 
+\item \textbf{Automated prompt optimization} (e.g., DSPy) that treat prompts as trainable parameters.
+\item \textbf{Web search integration}, indicating whether the LLM was able to access and retrieve information from the Internet.
+\item \textbf{Agentic workflows}, including multi-step reasoning processes or delegated actions such as tool/function calling (e.g., via LangChain, AutoGPT, CrewAI). 
+\item \textbf{Post-training refinements}, including alignment or optimization techniques used to adjust model behavior after pretraining (e.g., reinforcement learning from human feedback (RLHF), direct preference optimization (DPO)).
+\end{itemize} 
+The goal is to specify any added customizations or provider-specific features that meaningfully shape system behavior in order to enable others to understand and accurately reproduce your setup.
+}}  &   \begin{itemize}[leftmargin=*]\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
    \item[\unchecked] Base model  
    \item[\unchecked] Fine-tuning 
    \item[\unchecked] RAG (retrieval-augmented)
@@ -189,8 +199,8 @@ For context, some providers (e.g., OpenAI) may log or inspect prompts even when 
 \textbf{Item E.1:} Human validation of LLM outputs:
 
 \textcolor{gray}{{\footnotesize
-\textbf{Explanation:} Describe whether and how human reviewers examined the model’s outputs, and the degree of independence they had in doing so. Specify the reviewers’ roles (e.g., domain experts, research assistants, subject-matter specialists) and relevant expertise, as well as how many reviewers participated and how their work was organized. Indicate whether outputs were independently annotated, double-checked by multiple reviewers, or merely approved or edited post-hoc by a lead author or investigator.
-Clarify what dimensions of performance were examined. These may include known performance metrics from ML/AI such as accuracy or other metrics like citation correctness, hallucination detection, agreement or inter-rater reliability. State whether qualitative judgments, quantitative metrics, or both were used. If outcome assessment required subjective interpretation, describe assessor qualifications, instructions provided, relevant demographics, and any inter-assessor agreement measures.
+\textbf{Explanation:} If relevant, describe whether and how human reviewers examined the model’s outputs, and the degree of independence they had in doing so. Specify the reviewers’ roles (e.g., domain experts, research assistants, subject-matter specialists) and relevant expertise, as well as how many reviewers participated and how their work was organized. Indicate whether outputs were independently annotated, double-checked by multiple reviewers, or merely approved or edited post-hoc by a lead author or investigator.
+Clarify what dimensions of performance were examined. These may include known performance metrics from ML/AI such as accuracy or other metrics like citation correctness, hallucination detection, agreement or inter-rater reliability. State whether qualitative judgments, quantitative metrics, or both were used. If outcome assessment required subjective interpretation, describe assessor qualifications, instructions provided, and relevant demographics.
 Describe the selection procedure for the reviewed outputs—whether all outputs were examined, a random sample was drawn, or specific cases (e.g., rare events or high-stakes responses) were oversampled to capture potential rare or critical errors. Further report how reviewers were trained or instructed, what criteria or rating scales they used, and how disagreements were resolved. For multi-reviewer settings, provide any inter-rater or inter-assessor reliability statistics (e.g., Cohen’s $\kappa$ or Krippendorff's $\alpha$). Finally, note whether reviewer feedback was used purely for validation or also to refine prompts, retrain models, or adjust study procedures.
 }}
 & 
@@ -280,7 +290,7 @@ Performance, transparency (open-/closed-weight, training data availability), rep
 \textbf{Discussion of the rationale for the prompt design:}
 
 \textcolor{gray}{\footnotesize
-\textbf{Explanation:} Describe how prompts were designed—structured formats, guidelines followed, or use of automated prompt-design tools.
+\textbf{Explanation:} Explain how you designed your prompts. For example, indicate whether you used a structured format (e.g., explicit task description, definitions, step-by-step instructions, and output constraints), followed established prompt engineering guidelines or prior literature, adapted prompts from earlier studies, or relied on automated prompt optimization tools. Clarify whether the design was iterative (e.g., refined through pilot testing or error analysis), whether few-shot examples were included and how they were selected, and whether prompts were standardized across models to ensure comparability.
 }
 &
 
@@ -353,7 +363,7 @@ Performance, transparency (open-/closed-weight, training data availability), rep
 \textbf{Computational resources:}
 
 \textcolor{gray}{\footnotesize
-\textbf{Explanation:} Report compute usage (e.g., API calls, tokens, GPUs, runtime, financial cost) at study-wide and, if relevant, per-participant levels.
+\textbf{Explanation:} Report the computational resources required for the study. This may include API call counts, total tokens processed, financial costs, runtime, number and type of GPUs/CPUs used, and any other relevant compute metrics.
 }
 & \\
 \hline
@@ -365,7 +375,7 @@ Performance, transparency (open-/closed-weight, training data availability), rep
 \noindent
 \fcolorbox{gray}{gray!20}{
   \parbox{.95\linewidth}{
-    \textbf{How to cite:} Feuerriegel et al. (2025). \textit{GUIDE-LLM: A consensus-based reporting checklist for large language models in behavioral and social science.}
+    \textbf{How to cite:} Feuerriegel et al. (2026). \textit{A consensus-based reporting checklist for large language models in behavioral and social science.}
   }
 }
 

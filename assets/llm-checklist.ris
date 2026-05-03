@@ -1,5 +1,5 @@
-TY  - UNPB
-TI  - A Consensus-Based Reporting Checklist for Large Language Models in Behavioral and Social Science
+TY  - JOUR
+TI  - A Reporting Checklist for LLMs in Behavioural Science 
 AU  - Feuerriegel, Stefan
 AU  - Barrie, Christopher
 AU  - Crockett, M. J.
@@ -82,6 +82,6 @@ AU  - Zhang, Simone
 AU  - Rathje, Steve
 AU  - Ribeiro, Manoel Horta
 PY  - 2026
-N1  - Working paper
+JO  - Nature Human Behaviour
 UR  - http://www.llm-checklist.com/
 ER  -

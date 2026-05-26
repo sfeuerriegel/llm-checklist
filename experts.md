@@ -64,8 +64,8 @@ The panel includes scholars at different career stages and methodological tradit
 - Oded Netzer, Columbia University
 - Alice Oh, KAIST
 - Desmond C. Ong, The University of Texas at Austin
-- Barbara Plank, LMU Munich
 - Francesco Pierri, Politecnico di Milano
+- Barbara Plank, LMU Munich
 - Iyad Rahwan, Max Planck Institute for Human Development, Center for Humans & Machines, Berlin, Germany
 - Talal Rahwan, New York University Abu Dhabi
 - Pooja S. B. Rao, International Institute of Information Technology Bangalore

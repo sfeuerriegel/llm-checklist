@@ -19,7 +19,7 @@ For a step-by-step guide and examples of real research workflows:
 For background on the motivation and principles behind the checklist, see  
 👉 **[Why GUIDE-LLM?](why-guide-llm/)**
 
-Access the associated paper published in <i>Nature Human Behaviour</em>:  
+Access the associated paper published in <i>Nature Human Behaviour</i>:  
 👉 **[Paper with detailed instructions](https://www.nature.com/articles/s41562-026-02492-7)**
 
 ---

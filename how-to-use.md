@@ -30,15 +30,15 @@ When your manuscript is ready, include the completed checklist as supplementary 
 Below are a couple of examples showing how the GUIDE-LLM checklist is used in research  
 *(Note: the list is still under construction).*
 
-- Stürenburg, F., Forster, K., Banholzer, N., Toetzke, M., Harttgen, K., & Feuerriegel, S. (2025). *Tracking funding disparities in global health aid with machine learning*. medRxiv.  
+- Stürenburg, F., Forster, K., Banholzer, N., Toetzke, M., Harttgen, K., & Feuerriegel, S. (2026). *Tracking funding disparities in global health aid with machine learning*. In: *Nature Communications*.  
   [https://doi.org/10.1101/2025.06.20.25329993](https://doi.org/10.1101/2025.06.20.25329993)  
   - Example checklist filled out: [Download Example](/assets/downloads/GUIDE-LLM_Example_LLM_Health.pdf)
 
-- Forster, K., Keil, L., Wagner, V., Müller, M. A., Sellhorn, T. & Feuerriegel, S. (2025). *Assessing corporate sustainability with large language models: Evidence from Europe*. SSRN.  
+- Forster, K., Keil, L., Wagner, V., Müller, M. A., Sellhorn, T. & Feuerriegel, S. (2026). *Assessing corporate sustainability with large language models: Evidence from Europe*. In: *Nature Communications*.  
   [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5361703](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5361703)  
   - Example checklist filled out: [Download Example](/assets/downloads/GUIDE-LLM_Example_LLM_CSR.pdf)
   
-- Chai, Y., Liu, Y., Ebrahimi, M., Li, W., Padmanabhan, B. (2025). *Adversarially robust detection of harmful online content: A computational design science approach. arXiv:2512.17367.  
+- Chai, Y., Liu, Y., Ebrahimi, M., Li, W., Padmanabhan, B. (2025). *Adversarially robust detection of harmful online content: A computational design science approach.* arXiv:2512.17367.  
 
   [https://arxiv.org/abs/2512.17367](https://arxiv.org/abs/2512.17367)  
   - Example checklist filled out: [Download Example](/assets/downloads/GUIDE-LLM_Example_harmful_content_Chai.pdf)

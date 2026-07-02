@@ -5,9 +5,7 @@ permalink: /imprint/
 layout: single
 ---
 
-# Legal Notice
-
-Provider information pursuant to Section 5 German Digital Services Act (DDG) and Section 18(2) German Interstate Media Treaty (MStV).
+Legal notice. Provider information pursuant to Section 5 German Digital Services Act (DDG) and Section 18(2) German Interstate Media Treaty (MStV).
 
 ---
 

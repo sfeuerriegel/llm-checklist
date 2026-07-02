@@ -1,7 +1,7 @@
 ---
-title: "Legal Notice"
-nav_title: "Legal Notice"
-permalink: /legal-notice/
+title: "Imprint"
+nav_title: "Imprint"
+permalink: /imprint/
 layout: single
 ---
 

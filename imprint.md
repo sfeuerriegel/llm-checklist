@@ -1,6 +1,3 @@
-Here’s a cleaner page version you can paste as `legal-notice.md`:
-
-```markdown
 ---
 title: "Legal Notice"
 nav_title: "Legal Notice"
@@ -99,4 +96,3 @@ LLM SoccerArena is an experimental benchmark and analysis project. The displayed
 
 The information in the central LMU Munich legal notice applies in addition:  
 [https://www.lmu.de/de/footer/impressum/index.html](https://www.lmu.de/de/footer/impressum/index.html)
-```
